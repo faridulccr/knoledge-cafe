@@ -1,11 +1,13 @@
-import Main from "./components/main/Main";
+import Blog from "./components/blog/Blog";
+import Faq from "./components/faq/Faq";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
     return (
         <section className="container">
             <Navbar />
-            <Main />
+            <Blog />
+            <Faq />
         </section>
     );
 }
