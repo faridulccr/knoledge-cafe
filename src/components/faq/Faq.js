@@ -1,6 +1,6 @@
 import "./Faq.style.css";
 
-export default function Blog() {
+const Faq = () => {
     return (
         <div className="blog-section">
             <h1 id="blog-title">Frequently Question and Answer</h1>
@@ -65,4 +65,6 @@ export default function Blog() {
             </div>
         </div>
     );
-}
+};
+
+export default Faq;

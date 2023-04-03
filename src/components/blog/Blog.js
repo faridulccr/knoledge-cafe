@@ -3,7 +3,7 @@ import Card from "../card/Card";
 import Toast from "../toast/Toast";
 import "./Blog.style.css";
 
-export default function Main() {
+const Blog = () => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
     const [cardData, setCardData] = useState([]);
@@ -85,4 +85,6 @@ export default function Main() {
             {showToast && <Toast toastHandler={toastHandler} />}
         </main>
     );
-}
+};
+
+export default Blog;
